@@ -16,6 +16,13 @@ A ideia é combinar **machine learning** com visualizações interativas para fa
 
 ---
 
+## 🔗 Acesse a aplicação
+[💻 Abrir no Streamlit](https://meuprojeto.streamlit.app/)  
+
+*(Substitua o link acima pelo link real do seu deploy no Streamlit)*
+
+---
+
 ## 🛠 Tecnologias
 - **Python 3.11+**  
 - **Streamlit**  
