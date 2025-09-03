@@ -1,22 +1,39 @@
-# 🚀 Dashboard de Análise de Sentimentos com Streamlit
+# Análise de Sentimentos em Reviews do IMDB
 
-Bem-vindo ao **Dashboard de Análise de Sentimentos**! Este projeto permite explorar e analisar dados de avaliações de texto (reviews), utilizando técnicas de **Machine Learning** e **Visualização de Dados** em tempo real, diretamente no navegador com **Streamlit**.
+![Banner](https://drive.google.com/uc?id=1I4HfIlSV7MaZSP0GChXCa1oKSNgrKHME)
 
----
+## Descrição do Projeto
 
-## 🌟 Funcionalidades
+Este projeto é uma **aplicação web interativa** para análise de sentimentos em reviews do IMDB. Utilizando técnicas de **Processamento de Linguagem Natural (NLP)**, a aplicação classifica comentários como positivos ou negativos, oferecendo uma visualização clara e interativa dos resultados.
 
-- Carregamento dinâmico do dataset diretamente do **Google Drive**.
-- Pré-processamento automático dos textos (limpeza, normalização, tokenização).
-- Treinamento e aplicação de modelos de análise de sentimentos (positivo, negativo, neutro).
-- Visualizações interativas:
-  - Gráficos de barras, pizza e nuvem de palavras.
-  - Histogramas de frequência de palavras.
-  - Dashboard filtrável por categoria, data ou score.
-- Integração completa com **Streamlit Cloud** para acesso público via link.
+O projeto foi desenvolvido com foco em **facilidade de uso**, **visualização dinâmica** e **precisão na classificação**, sendo ideal para aprendizado, demonstração de habilidades em ciência de dados e exploração de dados textuais.
 
 ---
 
-## 📂 Dataset
-O dataset é grande (~65MB), por isso não está incluído diretamente no repositório. Ele é carregado via Google Drive:
+## Funcionalidades
 
+- Análise de sentimentos de reviews do IMDB.
+- Pré-processamento de textos: limpeza, tokenização e normalização.
+- Treinamento de modelo de Machine Learning para classificação de sentimentos.
+- Visualização interativa dos resultados utilizando gráficos.
+- Interface amigável via **Streamlit**.
+
+---
+
+## Tecnologias Utilizadas
+
+- **Python 3.11+**
+- **Streamlit** - Criação da interface web.
+- **Scikit-learn** - Modelos de Machine Learning.
+- **NLTK** - Pré-processamento de texto.
+- **Plotly / Altair** - Visualizações interativas.
+- **Pandas e NumPy** - Manipulação e análise de dados.
+
+---
+
+## Requisitos
+
+Instale as dependências utilizando o arquivo `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
