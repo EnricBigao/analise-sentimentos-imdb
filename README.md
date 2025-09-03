@@ -1,39 +1,33 @@
-# Análise de Sentimentos em Reviews do IMDB
+# 📝 Análise de Sentimentos em Reviews do IMDB
 
-![Banner](https://drive.google.com/uc?id=1I4HfIlSV7MaZSP0GChXCa1oKSNgrKHME)
+## 🚀 Descrição do Projeto
+Este projeto é uma **aplicação web interativa** que analisa sentimentos em reviews do IMDB.  
+Utiliza técnicas de **Processamento de Linguagem Natural (NLP)** para classificar comentários como **positivos** ou **negativos**.  
 
-## Descrição do Projeto
-
-Este projeto é uma **aplicação web interativa** para análise de sentimentos em reviews do IMDB. Utilizando técnicas de **Processamento de Linguagem Natural (NLP)**, a aplicação classifica comentários como positivos ou negativos, oferecendo uma visualização clara e interativa dos resultados.
-
-O projeto foi desenvolvido com foco em **facilidade de uso**, **visualização dinâmica** e **precisão na classificação**, sendo ideal para aprendizado, demonstração de habilidades em ciência de dados e exploração de dados textuais.
+A ideia é combinar **machine learning** com visualizações interativas para facilitar a exploração dos dados textuais.  
 
 ---
 
-## Funcionalidades
-
-- Análise de sentimentos de reviews do IMDB.
-- Pré-processamento de textos: limpeza, tokenização e normalização.
-- Treinamento de modelo de Machine Learning para classificação de sentimentos.
-- Visualização interativa dos resultados utilizando gráficos.
-- Interface amigável via **Streamlit**.
+## ✨ Funcionalidades
+- 💬 Classificação de reviews como positivos ou negativos  
+- 🧹 Pré-processamento de textos (limpeza, tokenização e normalização)  
+- 📊 Visualização interativa dos resultados com gráficos  
+- 🌐 Interface amigável via **Streamlit**  
 
 ---
 
-## Tecnologias Utilizadas
-
-- **Python 3.11+**
-- **Streamlit** - Criação da interface web.
-- **Scikit-learn** - Modelos de Machine Learning.
-- **NLTK** - Pré-processamento de texto.
-- **Plotly / Altair** - Visualizações interativas.
-- **Pandas e NumPy** - Manipulação e análise de dados.
+## 🛠 Tecnologias
+- **Python 3.11+**  
+- **Streamlit**  
+- **Scikit-learn**  
+- **NLTK**  
+- **Plotly / Altair**  
+- **Pandas & NumPy**  
 
 ---
 
-## Requisitos
-
-Instale as dependências utilizando o arquivo `requirements.txt`:
+## 📦 Requisitos
+Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
